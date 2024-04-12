@@ -1,0 +1,143 @@
+#mainContent{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#popup {
+    display: none;
+    position: absolute;
+    width: 500px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+#popup > button{
+    margin-bottom: 10px;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 30px;
+}
+
+#searchBar{
+    width: 90%;
+    height: 37px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+#cart{
+    display: flex;
+    align-items: center;
+}
+
+#cart > img{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    height: 50px;
+}
+
+#options{
+    display:flex ;
+    justify-content: center;
+    gap: 30px;
+    background-color: lightgray;
+    height: 50px;
+    align-items: center;
+    margin-left: -20%;
+    margin-right: -20%;
+}
+
+#options > a{
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#shopTitle{
+    font-size: 60px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    color: antiquewhite;
+}
+
+#shopTitle > h1{
+    font-size: 50px;
+}
+
+#productSort{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sortOptions{
+    display: flex;
+    gap: 10px;
+}
+
+#Sort{
+    border: 2px solid black;
+}
+
+#productContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+.popupTop{
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.ads{
+    border: 2px solid black;
+    background-color: pink;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+.Product{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Product > img{
+    height: 200px;
+}
+
+.Product > button{
+    background-color: pink;
+    height: 30px;
+    width: 70px;
+    border-radius: 10%;
+}
+
+
+
